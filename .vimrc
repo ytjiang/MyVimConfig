@@ -48,6 +48,7 @@ autocmd FileType python setlocal et sta sw=4 sts=4
 
 "set tags
 set tags=/Users/ytjiang/Documents/GitHub/ossec-hids/tags
+set tags+=/Users/ytjiang/Documents/GitHub/Unity/src/tags
 
 " auto add Python header -START
 autocmd BufNewFile *.py 0r ~/.templates/python_header
