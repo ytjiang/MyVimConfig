@@ -38,7 +38,9 @@ set mouse=
 
 "indent settings
 set ts=4
+set expandtab
 set sw=4
+set cindent
 set smartindent
 
 filetype indent on
