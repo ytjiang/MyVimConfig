@@ -34,12 +34,12 @@ set showmatch
 set laststatus=2
 
 "disable mouse
-set mouse=
+set mouse= 
 
 "indent settings
 set ts=4
-set expandtab
 set sw=4
+set expandtab
 set cindent
 set smartindent
 
@@ -50,7 +50,9 @@ autocmd FileType python setlocal et sta sw=4 sts=4
 set tags=/Users/ytjiang/Documents/GitHub/ossec-hids/tags
 set tags+=/Users/ytjiang/Documents/GitHub/Unity/src/tags
 
+"""""""""""""""""""""""
 " auto add Python header -START
+"""""""""""""""""""""""
 autocmd BufNewFile *.py 0r ~/.templates/python_header
 autocmd BufNewFile *.py ks|call FileName()|'s
 autocmd BufNewFile *.py ks|call CreatedTime()|'s
@@ -72,4 +74,12 @@ fun CreatedTime()
     endif
 exe "1," . l . "g/Created Time : .*/s/Created Time : .*/Created Time : " .strftime("%Y-%m-%d %T")
 endfun
+"""""""""""""""""""""""
 " auto add Python header -END
+"""""""""""""""""""""""
+
+"""""""""""""""""""""""
+" tool : pydiction
+"""""""""""""""""""""""
+filetype plugin on
+let g:pydiction_location = '/Users/ytjiang/.vim/complete-dict' 
