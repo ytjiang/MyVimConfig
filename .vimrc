@@ -46,9 +46,17 @@ set smartindent
 filetype indent on
 autocmd FileType python setlocal et sta sw=4 sts=4
 
-"set tags
+"""""""""""""""""""""""
+" set tags for different projects
+"""""""""""""""""""""""
+" project : ossec-hids, C
 set tags=/Users/ytjiang/Documents/GitHub/ossec-hids/tags
+" project : Unity, test framework for C, C
 set tags+=/Users/ytjiang/Documents/GitHub/Unity/src/tags
+" project : requests, python
+set tags+=/Users/ytjiang/Documents/GitHub/requests/tags 
+" project : scrapy, scawler module, python
+set tags+=/Users/ytjiang/Documents/GitHub/scrapy/tags
 
 """""""""""""""""""""""
 " auto add Python header -START
