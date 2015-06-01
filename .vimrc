@@ -57,6 +57,8 @@ set tags+=/Users/ytjiang/Documents/GitHub/Unity/src/tags
 set tags+=/Users/ytjiang/Documents/GitHub/requests/tags 
 " project : scrapy, scawler module, python
 set tags+=/Users/ytjiang/Documents/GitHub/scrapy/tags
+" project : flask
+set tags+=/Users/ytjiang/Documents/GitHub/flask/tags
 
 """""""""""""""""""""""
 " auto add Python header -START
