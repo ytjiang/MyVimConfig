@@ -1,2 +1,2 @@
 # MyVimConfig
-My VIM configuration
+Just backup my VIM configurations.
