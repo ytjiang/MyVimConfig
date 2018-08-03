@@ -1,0 +1,8 @@
+ack.vim  
+molokai  
+nerdtree  
+tagbar  
+vim-colors-solarized  
+vim-powerline  
+Vundle.vim  
+YouCompleteMe
